@@ -1,13 +1,18 @@
 <header id="testheader" class="header">
 	<nav id="menu">
-		<img class="logoImg" src="../img/enter.jpg" alt="logo">
+		<h1 class="title">
+			DIDAX
+		</h1>
+		
 		<ul>
 			<li><a href="index.php">Accueil</a></li>
-			<li><a href="planvol.php">page 1</a></li>
-			<li><a href="convertisseur.php">page2</a></li>
-			<li><a href="forum.php">page3</a></li>
-			<li><a href="stats.php">page4</a></li>
-			<li><a href="cartes.php">page5</a></li>
+			<li><a href="inscription.php">Inscription</a></li>
+			<li><a href="login.php">Connexion</a></li>
+			<?php if ($_SESSION['pseudo']): ?>
+                <li><a href="logout.php">Se déconnecter</a></li>
+            <?php endif ?>
+			
 		</ul>
 	</nav>
+		
 </header>

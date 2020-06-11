@@ -1,5 +1,230 @@
-.logoImg {
-	height: 170px;
-	position: center;
-	margin-top: 60px;
+
+
+.header {
+	height: 310px;
+	width: 100%;
+	background-image: url("../img/enter.jpg");
+	background-size: cover;
+	text-align: center;
+	opacity:.90;
+}
+
+
+.title {
+	font-size: 100px;
+	display: inline-flex;
+	text-align: center;
+	color: white;
+	font-family:"Segoe print", Arial, Helvetica, sans-serif;
+}
+
+
+
+nav ul   {
+	padding:0px;
+	margin: 3px;
+	list-style-type: none;
+	position: absolute;
+	top: 10px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .6);
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	width: 190px;
+	text-align: center;
+}
+
+nav ul li a {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+
+}
+
+.bouton {
+	margin-top: 30px;
+	width: 35%;
+	display: inline-block;
+	margin-left: 200px;
+	border-radius: 10px;
+	opacity:.75;
+	border: 10px solid;
+	border-color: black;
+
+}
+
+.bouton2 {
+	margin-top: 30px;
+	width: 35%;
+	display: inline-block;
+	border-radius: 10px;
+	opacity:.75;
+	border: 10px solid;
+	border-color: black;
+}
+
+.grandContainerLog{
+	display:flex;
+	align-item: center;
+	justify-content: center;
+
+}
+.petitcontainerLog{
+	display: flex;
+	flex-direction: column;
+	align-item: space-between;
+	justify-content: space-around;
+	height:200px;
+	border-radius: 10px;
+}
+
+.containerFormulaire {
+	align-content: center;
+	border: double grey 10px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 80px;
+	padding: 20px;
+	width: 300px;
+	height: 100%;
+	position: relative;
+	background-color: whitesmoke;
+	border-radius: 10px;
+}
+
+.incriptionFormulaire {
+	text-align: center;
+}
+
+button.formLog {
+	text-align: center;
+	width:200px;
+	border:none;
+	padding:30px  30px 30px;
+	border-radius:8px;
+	background:#478bf9;
+	font:bold 13px Arial;
+	color:#fff;
+}
+
+#paperPlaneIcon {
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	margin-top: -60px;
+	margin-left: 0px;
+}
+
+.offres {
+	align-content: center;
+	border: double grey 10px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 80px;
+	padding: 20px;
+	width: 300px;
+	height: 220px;
+	position: relative;
+	background-color: whitesmoke;
+	border-radius: 10px;
+	align-items: center;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.bpostul {
+
+	text-align: center;
+	border-radius:8px;
+	background:#478bf9;
+	border:none;
+	width:200px;
+}
+
+#inlineFrameExample {
+	width:1350px;
+    height:1000px;
+        
+
+}
+
+h3 {
+  text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+.welcome {
+	background-color: grey;
+}
+
+.offreformulaire {
+	align-content: center;
+	border: double grey 10px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 80px;
+	padding: 20px;
+	width: 300px;
+	height: 100%;
+	position: relative;
+	background-color: whitesmoke;
+	border-radius: 10px;
+}
+
+.bvalid {
+	text-align: center;
+	border-radius:8px;
+	background-color: grey;
+	border:none;
+	width:200px;
+	height: 80px;
+	font-size: 20px;
+}
+
+.inscription {
+	text-align: center;
+	border-radius:8px;
+	background-color: grey;
+	border:none;
+	width:200px;
+	height: 80px;
+	font-size: 20px;
+}
+
+.titreoffres{
+	text-align: center;
+	background-color: grey;
+}
+
+#outdiv {
+height: 2500px;
+overflow: hidden;
+position: absolute;
+margin-left: 270px;
+width: 1000px;
+text-align: center;
+align-self: center;
+}
+
+#iniframe {
+height: 2400px;
+left: -180px;
+position: absolute;
+top: -290px;
+width: 1500px;
+
+}
+
+#descri {
+	width:200px;
+	height: 200px;
 }
